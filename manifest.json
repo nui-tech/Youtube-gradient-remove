@@ -1,0 +1,13 @@
+{
+  "name": "YT-No-Gradient",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+
+}
